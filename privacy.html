@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy policy for the privately operated AI Research Runner desktop application.">
+<title>Privacy Policy | AI Research Runner</title>
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#172338;line-height:1.7}
+body{margin:0;background:#f6f8fb}main{max-width:800px;margin:5vh auto;padding:0 20px 48px}
+article{background:#fff;border:1px solid #e0e5ee;border-radius:16px;padding:clamp(24px,5vw,48px)}
+h1{line-height:1.2}h2{font-size:1.2rem;margin-top:1.7rem}a{color:#1758ae}
+small{color:#59677b}
+</style>
+</head>
+<body><main><article>
+<p><a href="./index.html">← AI Research Runner home</a></p>
+<h1>Privacy Policy</h1>
+<p><small>Last updated: November 8, 2026</small></p>
+<p>AI Research Runner is a personal-use desktop research automation project operated by its owner. It is being developed for use with an owner-controlled Google account, not as a service offered to the public. This policy describes its intended use of Google account data and distinguishes planned capabilities from those tested so far.</p>
+<h2>Current development status</h2>
+<p>The owner has tested a Google OAuth sign-in flow requesting read-only Gmail permission and confirmed access to the designated account's Gmail profile. That test did not save OAuth access or refresh tokens and did not download message contents. Continuous inbox monitoring, message processing, report delivery, and automatic research execution are planned features, not yet deployed.</p>
+<h2>Google data the application may access</h2>
+<p>During development, the authentication test requests the Gmail read-only scope to confirm account access. When the planned workflow is implemented and separately authorized, the application may access messages and metadata in the designated Gmail mailbox to identify owner-sent research assignments, process relevant instructions, and prepare responses. Sending email would require an additional Gmail permission and a separate authorization step. The application will request only permissions needed for implemented features.</p>
+<h2>How data is intended to be used</h2>
+<p>Google account data will be used to operate the owner's private research workflow: recognize authorized assignments, extract instructions relevant to those assignments, track their progress, and send results to the owner when sending is enabled. The project is not intended to sell Google user data, serve advertising, or expose mailbox contents on this public website.</p>
+<h2>Storage and access</h2>
+<p>The application is intended to run on the owner's Windows computer. OAuth client configuration is stored locally. Future OAuth tokens, message-processing records, and research artifacts will require appropriate local access controls and secret-exclusion rules before unattended operation begins. Research outputs may be saved to a separate private GitHub repository. No private mailbox data or credentials are intentionally stored in this public website repository.</p>
+<h2>Sharing and external services</h2>
+<p>The intended workflow uses Google Gmail for communication and may use GitHub to store research outputs. Research execution may also involve AI services or external research sources, depending on the assignment and the services the owner later configures. Such integrations are not yet fully configured; their data handling will be reviewed before use. The project does not intend to share Gmail data with third parties for advertising or data brokerage.</p>
+<h2>Retention and deletion</h2>
+<p>Future retention periods and deletion controls for locally processed messages and research records will be established before unattended processing is enabled. At present, the authentication test does not retain Gmail tokens or message content. The owner controls the designated Gmail account and can revoke the application's Google access through Google Account settings.</p>
+<h2>Security and limitations</h2>
+<p>Access is intended to be limited to the owner's authorized account, with sender validation and safeguards against executing untrusted email instructions. These operational protections are still being developed and should not be considered deployed. No internet-connected system can be guaranteed completely secure.</p>
+<h2>Changes</h2>
+<p>This policy will be updated as the application gains capabilities or its data handling changes. The date above identifies the current version.</p>
+<h2>Contact</h2>
+<p>For questions about this personal-use application or its privacy practices, contact <a href="mailto:marcresearchrunner@gmail.com">marcresearchrunner@gmail.com</a>.</p>
+</article></main></body></html>
